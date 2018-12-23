@@ -12,28 +12,25 @@ public class App
 {
     public static void main( String[] args )
     {
-        intScanner roll = new Scanner(System.in);
-   intScanner bounce = new Scanner(System.in);
-   intScanner hill = new Scanner(System.in);
+        Scanner roll = new Scanner(System.in);
+        Scanner bounce = new Scanner(System.in);
+        Scanner hill = new Scanner(System.in);
 
    System.out.println("Enter a roll number:");
-    int newRoll = sc.nextInt();
+    int newRoll = roll.nextInt();
     System.out.println("Enter a bounce number:");
-    int newBounce = sc.nextInt();
+    int newBounce = bounce.nextInt();
     System.out.println("Enter a hill number:");
-    int newHill = sc.nextInt();
+    int newHill = hill.nextInt();
 
-    roll = newRoll;
-    bounce = newBounce;
-    hill = newHill;
     }
 
     public void rollHill(int height, int angle, int drop){
         height = 0;
-        angle = roll * hill;
-        drop = angle/roll+4;
+        angle = newRoll * newHill;
+        drop = angle/newRoll+4;
 
-    if(roll ){
+    if(newRoll ){
 
     }
 
