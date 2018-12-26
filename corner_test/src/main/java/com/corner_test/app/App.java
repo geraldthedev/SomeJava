@@ -25,6 +25,7 @@ public class App
 
     }
 
+<<<<<<< HEAD
     public void rollHill(int height, int angle, int drop){
        int height = 0;
        int angle = newRoll * newHill;
@@ -34,6 +35,19 @@ public class App
 
 
     }
+=======
+    public void rollHill(int newRoll, int newBounce, int newHill){
+       int height = 0;
+       int angle = newRoll * newHill;
+       int drop = angle/newRoll+4;
+
+    if (newRoll < 20 ){
+        height++;
+        System.out.println("height is "+ height);
+        System.out.println("angle is "+ angle);
+        System.out.println("drop is "+ drop);
+    } 
+>>>>>>> e898597037811ef97af57179d5cf2c7e13d75a3e
 
 }
 }
