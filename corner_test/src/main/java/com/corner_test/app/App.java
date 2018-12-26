@@ -25,13 +25,15 @@ public class App
 
     }
 
-<<<<<<< HEAD
     public void rollHill(int height, int angle, int drop){
        int height = 0;
        int angle = newRoll * newHill;
        int drop = angle/newRoll+4;
 
     if(newRoll < 20 ){
+
+
+    }
 
 
     }
